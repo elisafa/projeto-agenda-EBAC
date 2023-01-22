@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Ageenda de contatos</title>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <img src="./images/phone.svg" alt="Telefone">
+    <h1>Contatos</h1>
+  </header>
+  <form id="form-contato">
+    <input type="text" placeholder="Nome do contato" id="input-name" required title="Insira o nome">
+    <input type="tel" placeholder="(99) 9999-9999" id="input-fone" required title="Insira o telefone">
+    <button type="submit">Cadastrar</button>
+  </form>
+  <p id="aviso"></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Nomes</th>
+        <th>Telefones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>---</td>
+        <td>---</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="main.js"></script>
+</div>
+</body>
+</html>
